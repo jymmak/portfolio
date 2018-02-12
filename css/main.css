@@ -1,1 +1,221 @@
+/*Canvas*/
+canvas {
+  display:block;
+  height: 70vh;
+  width:100%;
+}
+/*header*/
+a{
+  font-size: 1.8rem;
+  color: rgb(202, 191, 191);
+}
 
+.brand-logo {
+  background: url('../assets/images/.jpg') no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 40px;
+  margin-left: 10%;
+  display: inline-block;
+  transform: translateY(30%);
+  
+}
+nav{
+  background-color: #7D4374;
+}
+
+#hero{
+ position:absolute;
+ text-align: center;
+ margin-top: 5%;
+}
+h3,h5{
+  line-height: 2;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  font-size: 2.5rem;
+}
+.keyword, .typewrite{
+  font-size: 3.5rem;
+  color: aliceblue;
+}
+
+/*About*/
+.forma{
+  display: inline-block;
+  margin: 16px;
+}
+.title-about{
+  margin: 7%;
+}
+#hexagono{ 
+  width: 100px; 
+  height: 60px; 
+  background: #4FA1A7; 
+  position: relative;
+  color: white;
+  margin-left: 10%;
+} 
+#hexagono:before { 
+  width: 0; 
+  height: 0; 
+  content: ""; 
+  position: absolute; 
+  top: -25px; 
+  left: 0; 
+  border-left: 50px solid transparent; 
+  border-right: 50px solid transparent; 
+  border-bottom: 25px solid #4FA1A7;
+} 
+#hexagono:after { 
+  width: 0; 
+  height: 0; 
+  content: ""; 
+  position: absolute; 
+  bottom: -25px; 
+  left: 0; 
+  border-left: 50px solid transparent; 
+  border-right: 50px solid transparent; 
+  border-top: 25px solid #4FA1A7;
+}
+.hex{
+  width: 70%;
+  margin-top: 16%;
+  margin-bottom: 10%;
+}
+.fa-tachometer-alt, .fa-lightbulb, .fa-mobile, .fa-rocket{
+  font-size: 4rem;
+  color: white;
+}
+.box{
+  margin-top:13%;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+.bar{
+  color: #666;
+  height: 28px;
+  position: relative;
+  background-color: rgb(25, 231, 238);
+  margin: 0 0 12px 0;
+  align-items: flex-end;
+  font-size: 2rem;
+}
+.tag {
+  top: 0;
+  left: 0;
+  background-color: #04C2C9;
+  width: 110px;
+
+}
+.percent{
+  background-color: lightgrey;
+  height: 28px;
+  width: 50%;
+  margin: 0 0 12px 0;
+  align-items: flex-end;
+  margin-left: 76%;
+  position: absolute;
+}
+.percent2{
+  margin-left: 80%;
+}
+.percent3{
+  margin-left: 88%;
+}
+/*Skills*/
+#skills{
+  background-color:	rgb(66, 66, 75);
+  color: white;
+  font-size: 1.5rem;
+}
+
+/*Contacto*/
+#contact{
+  width: 100%;
+  color: #292829;
+  background-color: #F4CFD5;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  padding: 5%;
+
+}
+.copy{
+  font-size: 10px;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: white;
+  background: rgba(255, 255, 255, 0.2);
+}
+::selection {
+  text-shadow: none;
+  background: white;
+  background: rgba(255, 255, 255, 0.2);
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+.justify{
+  text-align: justify;
+}
+.img-circle{
+  margin: 0 0 45px;
+}
+.strong{
+  font-weight: 900 !important;
+}
+.pink{
+  color:darkslategray;
+}
+i{
+  font-size: 3rem;
+  color: black;
+}
+
+.title{
+  font-size: 2rem;
+  text-align: justify;
+}
+.title2{
+  font-size: 2rem;
+  text-align: justify;
+  color: rgb(27, 75, 231);
+}
+.number{
+color: rgb(62, 73, 109);
+font-size: 1.8rem;
+}
+
+/*Footer*/
+footer {
+  padding: 25px 0;
+}
+footer p {
+  margin: 0;
+
+}
+.footer{
+  background-color: #292829;
+}      
+.copyright{
+  color: white;
+ 
+}
+i{
+  font-size: 3.5rem;
+  color: black;
+}

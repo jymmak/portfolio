@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'PF DIN Text Pro';
+    src: url(../fonts/pfdin/pf-din-text-pro.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'PF DIN Text Pro';
+    src: url(../fonts/pfdin/pf-din-text-pro-thin.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'PF DIN Text Pro';
+    src: url(../fonts/pfdin/pf-din-text-pro-light.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'PF DIN Text Pro';
+    src: url(../fonts/pfdin/pf-din-text-pro-extrablack.otf);
+    font-weight: 600;
+}
+
+$pfdin: 'PF DIN Text Pro',
+sans-serif;
+$nunito: 'Nunito',
+sans-serif;
+$roboto: 'Roboto',
+sans-serif;

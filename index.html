@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio</title>
+  <title>Jymma Mogollón | Front-end Developer</title>
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="assets/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
   <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
@@ -12,7 +13,270 @@
 </head>
 
 <body>
+  <header>
+    <nav class="navbar  navbar-fixed-top navcoll">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#hero" class="brand-logo"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" id="navbarResponsive">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Acerca de mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
+  <!--Name-->
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="row">
+        <h5 class="col-md-12">¡Hola!</h5>
+        <h3 class="col-md-12">Me llamo
+          <br>
+          <span class="keyword">Jymma Mogollón,</span>
+        </h3>
+        <div class="col-md-12 h3">soy
+          <span href="" class="typewrite" data-period="2000" data-type='[ "Desarrolladora Front-end,construyo mediante código sitios web interactivos y funcionales."]'>
+            <span class="wrap keyword"></span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Canvas-->
+  <canvas id="canvas" class="canvas"></canvas>
+
+  <!--Acerca de mi-->
+  <section id="about" class="about">
+    <div class="container-fluid  content-section">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2  text-center">
+          <h2 class="title-about">Acerca de mí</h2>
+          <div id="hexagono" class="forma">
+            <i class="fas fa-tachometer-alt"></i>
+          </div>
+          <div id="hexagono" class="forma">
+            <i class="far fa-lightbulb"></i>
+          </div>
+          <div id="hexagono" class="forma">
+            <i class="fas fa-mobile"></i>
+          </div>
+          <div id="hexagono" class="forma">
+            <i class="fas fa-rocket"></i>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4  col-lg-offset-1 text-left">
+          <img src="assets/images/mifoto.jpg" class="hex" alt="jymma mogollon">
+          <p class="title"> Soy una Desarrolladora Front-End, tengo una gran pasión por las animaciones y la creación de experiencias de usuario
+            dinámicas e intuitivas.</p>
+          <p class="title">Me enfoco en brindar soluciones efectivas y sostenibles. Me gusta desafiar mis límites en cada proyecto y desarrollar
+            cada vez más mis habilidades tech.</p>
+          <p class="title">Me motiva poder usar el código como herramienta de creación y transformación, me implusa a seguir aprendiendo.</p>
+          <p class="title2">Hagamos algo especial.</p>
+        </div>
+
+        <div class="col-lg-5 box">
+          <div class="skills-wrapper flex row-gt-sm">
+            <div class=" flex flex-50-gt-sm waypoint bars-wrap animated slide-in-right text-center" data-animation="slide-in-right">
+              <div class="flex">
+                <div class="bar fill " style="width:75%">
+                  <div class="tag bold">
+                    <span class="percent">80%</span>CSS</div>
+
+                </div>
+
+              </div>
+
+              <div class=" flex">
+                <div class="bar fill" style="width:85%">
+                  <div class="tag bold">
+                    <span class="percent percent2">90%</span>HTML</div>
+                </div>
+
+              </div>
+
+              <div class=" flex">
+                <div class="bar fill" style="width:35%">
+                  <div class="tag bold">
+                    <span class="percent">10%</span>React</div>
+                </div>
+
+              </div>
+
+              <div class=" flex">
+                <div class="bar fill" style="width:90%">
+                  <div class="tag bold">
+                    <span class="percent percent3">95%</span>JavaScript</div>
+                </div>
+
+              </div>
+
+              <div class=" flex">
+                <div class="bar fill" style="width:35%">
+                  <div class="tag bold">
+                    <span class="percent">10%</span>Node.js</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!--Skills-->
+  <section id="skills" class="skills padding-section">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <h3 class="center-align margin-b-h3">Skills</h3>
+        </div>
+        <div class="col s12 m12 l6 no-padding skills-text">
+          <div class="desarrollo-web col s12 m6 l6 skills-list">
+            <h5 class="center-align">Desarrollo web</h5>
+            <p>HTML5</p>
+            <p>Javascript</p>
+            <p>jQuery</p>
+            <p>React</p>
+            <p>CSS3</p>
+          </div>
+          <div class="frameworks col s12 m6 l6 skills-list">
+            <h5 class="center-align">Frameworks</h5>
+            <p>Bootstrap</p>
+            <p>Foundation</p>
+            <p>Materialize</p>
+            <p>Angular 4 *</p>
+            <p>Vue.js *</p>
+          </div>
+        </div>
+        <div class="col s12 m12 l6 no-padding skills-text">
+          <div class="herramientas col s12 m6 l6 skills-list">
+            <h5 class="center-align">Herramientas</h5>
+            <div class="col m6 s4 offset-s2">
+              <p>SASS</p>
+              <p>Ajax</p>
+              <p>API</p>
+            </div>
+            <div class="col m6 s4">
+              <p>Node.js</p>
+              <p>Git</p>
+              <p>Gulp</p>
+            </div>
+          </div>
+          <div class="disenio-grafico col s12 m6 l6 skills-list">
+            <h5 class="center-align">Diseño Gráfico</h5>
+            <p>Adobe Illustrator</p>
+            <p>Adobe Photoshop</p>
+            <p>Adobe InDesign</p>
+          </div>
+        </div>
+        <div class="col m12 s12 l12 badget">
+          <div class="col l4 m4 offset-m2 offset-l2 s12">
+            <img src="assets/images/onebest.png" alt="Badget de top cinco">
+            <p>Badget: Una de las 5 mejores</p>
+          </div>
+          <div class="col l4 m4 s12">
+            <img src="assets/images/bestsquad.png" alt="Badget de trabajo en equipo">
+            <p>Badget: Trabajo en equipo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <!--Contacto-->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Contacto</h2>
+        </div>
+        <div class="col-lg-8 col-lg-offset-2">
+          <p>Para mantenernos en contacto puedes escribirme: </br>
+            <a class="pink" href="mailto:jkmogollon.cp@gmail.com" target="_blank">
+              <b>
+                <i class="fas fa-envelope"></i>
+              </b> jkmogollon.cp@gmail.com</a>
+          </p>
+          <p> Puedes llamarme:</p>
+          <p class="number">930902876</p>
+          <p>O puedes descargar mi CV:</br>
+            <a class="pink" href="assets/pdf/.pdf" target="_blank">
+              <i class="fa fa-download "></i> Curriculum Vitae</a>
+          </p>
+          <p>
+            </br>
+          </p>
+          <p>
+            <ul class="list-inline social-buttons">
+
+
+              <li>
+                <a href="https://github.com/jymmak" target="_blank">
+                  <i class="fab fa-github-square"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/jymma-karina-mogoll%C3%B3n-cardoza-77537b127/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/jymmakarinam/" target="_blank">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-md-6 col-lg-offset-3">
+          <span class="copyright">Copyright &copy Jymma Mogollon- 2018</span>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
@@ -23,6 +287,8 @@
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/canvas.js"></script>
+  <script src="js/efect.js"></script>
 </body>
 
 </html>
