@@ -25,9 +25,9 @@ h3,h5, .h3{
   line-height: 2;
   display: flex;
   align-items: center;
-  justify-content:center;
+ text-align: center;
   font-size: 2.5rem;
-  color:black;
+  color:white;
 }
 .keyword, .typewrite{
   font-size: 3.5rem;
@@ -130,29 +130,21 @@ h3,h5, .h3{
 }
 
 /*Proyectos*/
-.container{
-  overflow: hidden;
-  position: relative;
-}
-
 
 .card{
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  display:inline-block;
+  margin-left: 8%;
+ margin-bottom: 7%;
 }
-
-
-
-
-
+.portfolio{
+  background-color: #DB541E;
+}
 
 /*Contacto*/
 #contact{
   width: 100%;
   color: #292829;
-  background-color: #F4CFD5;
+  background-color: #E8E3EF;
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
@@ -162,48 +154,15 @@ h3,h5, .h3{
 .copy{
   font-size: 10px;
 }
-::-moz-selection {
-  text-shadow: none;
-  background: white;
-  background: rgba(255, 255, 255, 0.2);
-}
-::selection {
-  text-shadow: none;
-  background: white;
-  background: rgba(255, 255, 255, 0.2);
-}
-img::selection {
-  background: transparent;
-}
-img::-moz-selection {
-  background: transparent;
-}
-body {
-  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+
+.fa-github-square, .fa-linkedin, .fa-facebook-square, .fa-envelope, .fa-download{
+  color: #003A27;
+ 
 }
 
-.justify{
-  text-align: justify;
-}
-.img-circle{
-  margin: 0 0 45px;
-}
-.strong{
-  font-weight: 900 !important;
-}
-.pink{
-  color:darkslategray;
-}
-i{
-  font-size: 3rem;
-  color: black;
-}
-
-
-}
 .number{
 color: rgb(62, 73, 109);
-font-size: 1.8rem;
+font-size: 1.3rem;
 }
 
 /*Footer*/
