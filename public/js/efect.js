@@ -1,4 +1,4 @@
-var TxtType = function (el, toRotate, period) {
+var TxtType = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
   this.loopNum = 0;
@@ -8,7 +8,7 @@ var TxtType = function (el, toRotate, period) {
   this.isDeleting = false;
 };
 
-TxtType.prototype.tick = function () {
+TxtType.prototype.tick = function() {
   var i = this.loopNum % this.toRotate.length;
   var fullTxt = this.toRotate[i];
 
@@ -23,7 +23,9 @@ TxtType.prototype.tick = function () {
   var that = this;
   var delta = 200 - Math.random() * 100;
 
-  if (this.isDeleting) { delta /= 2; }
+  if (this.isDeleting) {
+    delta /= 2;
+  }
 
   if (!this.isDeleting && this.txt === fullTxt) {
     delta = this.period;
@@ -34,12 +36,12 @@ TxtType.prototype.tick = function () {
     delta = 500;
   }
 
-  setTimeout(function () {
+  setTimeout(function() {
     that.tick();
   }, delta);
 };
 
-window.onload = function () {
+window.onload = function() {
   var elements = document.getElementsByClassName('typewrite');
   for (var i = 0; i < elements.length; i++) {
     var toRotate = elements[i].getAttribute('data-type');
@@ -48,9 +50,10 @@ window.onload = function () {
       new TxtType(elements[i], JSON.parse(toRotate), period);
     }
   }
-
-  var css = document.createElement("style");
-  css.type = "text/css";
-  css.innerHTML = ".typewrite > .wrap { border-right: 2px solid #fff}";
+  // INJECT CSS
+  var css = document.createElement('style');
+  css.type = 'text/css';
+  css.innerHTML = '.typewrite > .wrap { border-right: 2px solid #fff}';
   document.body.appendChild(css);
 };
+
