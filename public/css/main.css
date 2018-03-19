@@ -26,11 +26,11 @@ h5, h1, .h3{
   display: flex;
   align-items: center;
   text-align: center;
-  font-size: 3.5rem;
-  margin-top: 3%;
+  font-size: 2.8rem;
+  margin-top: 7%;
 }
 .typewrite{
-  font-size: 4rem;
+  font-size: 3rem;
   color:white;
   margin-left: 4%;
 }
@@ -96,15 +96,17 @@ h5, h1, .h3{
   border-top: 25px solid 	#f9f0b5;;
 }
 .hex{
-  width: 60%;
+  width: 70%;
   margin-top: 5%;
   margin-bottom: 10%;
   border:3px solid white;
   border-radius: 25%;
-
-  
 }
 
+.mifoto{
+  margin-top: 15%;
+  
+}
 
 .text-about{
   color:white;
@@ -131,7 +133,7 @@ h5, h1, .h3{
   color:rgb(53, 47, 61);
 }
 .badges{
-  margin-top: 12%;
+  margin-top: 18%;
 }
 
 /*Proyectos*/
@@ -194,8 +196,12 @@ i{
 }
 
 h2{
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 h3{
   color:white;
+  font-size: 2rem;
+}
+h4{
+  font-size: 1.8rem;
 }
