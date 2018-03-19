@@ -10,7 +10,6 @@ body{
   background-color: #33313c;
 }
 
-
 #hero{
  text-align: center;
  position: absolute;
@@ -27,7 +26,7 @@ h5, h1, .h3{
   display: flex;
   align-items: center;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-top: 3%;
 }
 .typewrite{
@@ -65,11 +64,12 @@ h5, h1, .h3{
   color: rgb(27, 75, 231);
 }
 #hexagono{ 
-  width: 90px; 
-  height: 40px; 
-  background: rgb(255, 255, 255); 
+  font-family: 'Amita', cursive;
+  width: 100px; 
+  height: 50px; 
+  background-color:	#f9f0b5;
   position: relative;
-  color: white;
+  color: rgb(17, 99, 9);
   margin-left: 10%;
   margin-top: 4%;
 } 
@@ -82,7 +82,7 @@ h5, h1, .h3{
   left: 0; 
   border-left: 50px solid transparent; 
   border-right: 50px solid transparent; 
-  border-bottom: 25px solid rgb(255, 255, 255);
+  border-bottom: 25px solid 	#f9f0b5;;
 } 
 #hexagono:after { 
   width: 0; 
@@ -93,25 +93,29 @@ h5, h1, .h3{
   left: 0; 
   border-left: 50px solid transparent; 
   border-right: 50px solid transparent; 
-  border-top: 25px solid rgb(255, 255, 255);
+  border-top: 25px solid 	#f9f0b5;;
 }
 .hex{
-  width: 25%;
-  margin-top: 1%;
+  width: 60%;
+  margin-top: 5%;
   margin-bottom: 10%;
   border:3px solid white;
-  border-radius: 50%;
+  border-radius: 25%;
 
+  
 }
 
 
-.fa-tachometer-alt, .fa-lightbulb, .fa-mobile, .fa-rocket{
-  font-size: 4rem;
-  color: #0e4e38;
+.text-about{
+  color:white;
+  text-align: justify;
+  font-size: 1.3rem;
+
 }
 .box{
   margin-top:13%;
 }
+
 
 /*Skills*/
 #skills{
