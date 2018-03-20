@@ -219,7 +219,7 @@ h4{
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-top: 2%;
   }
   .typewrite{
@@ -266,14 +266,12 @@ h4{
  h3{
    font-size: 1.5rem;
  }
- h2{
-  ont-size: 1.5rem;
+ h2, h6{
+  font-size: 1.5rem;
+  line-height: 2;
+ 
   }
 }
-
-/*Tablets*/
-@media(min-width: 768px) and (max-width: 1024px) { 
-
 
 
 
