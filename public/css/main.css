@@ -26,7 +26,7 @@ h5, h1, .h3{
   display: flex;
   align-items: center;
   text-align: center;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   margin-top: 7%;
 }
 .typewrite{
@@ -96,11 +96,16 @@ h5, h1, .h3{
   color:black;
   text-align: justify;
   font-size: 1.3rem;
+  margin-top: 15%;
 }
 .box{
-  margin-top:13%;
+  margin-top:14%;
 }
-
+.text-ligth{
+color: black;
+text-align: justify;
+font-size: 1.1rem;
+}
 
 /*Skills*/
 #skills{
@@ -136,6 +141,10 @@ h5, h1, .h3{
 .title-proyectos{
   text-align: justify;
   font-size: 1rem;
+}
+
+.lab-movil{
+  padding: 3%;
 }
 
 /*Contacto*/
@@ -187,7 +196,7 @@ i{
 h2{
   font-size: 2.3rem;
 }
-h3{
+h3, h6{
   color:white;
   font-size: 2rem;
 }
@@ -222,12 +231,12 @@ h4{
   #hexagono{ 
     font-family: 'Amita', cursive;
     width: 100px; 
-    height: 50px; 
+    height: 40px; 
     background-color:	#f9f0b5;
     position: relative;
     color: rgb(17, 99, 9);
     margin-left: 10%;
-    margin-top: 6%;
+    margin-top: 11%;
   } 
   .hex{
     width: 100%;
@@ -240,20 +249,26 @@ h4{
   
   .mifoto{
     margin-top: 15%;
+   
   }
   
   .text-about{
     display:none;
   }
-  .box{
-    margin-top:13%;
-  }
+  
+
   /*proyectos*/
-
   .title-proyectos{
-    display:none;
+    text-align: justify;
+    font-size: 1rem;
   }
 
+ h3{
+   font-size: 1.5rem;
+ }
+ h2{
+  ont-size: 1.5rem;
+  }
 }
 
 /*Tablets*/
