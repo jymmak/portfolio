@@ -16,7 +16,7 @@ body{
  color:white;
 }
 .fondo-hero{
-  width: 98.7vw;
+  width: 98.6vw;
   height: 106vh;
   opacity: 0.5;
   position: absolute;
@@ -34,12 +34,10 @@ h5, h1, .h3{
   color:white;
   margin-left: 4%;
 }
-
 /*About*/
 .about{
-  height: 60%;
+  height: 58%;
   margin-top: 50%;
-
   background-color: #f39f3f;
   padding: 1%;
 }
@@ -81,7 +79,7 @@ h5, h1, .h3{
   border-top: 25px solid 	#f9f0b5;;
 }
 .hex{
-  width: 70%;
+  width: 67%;
   margin-top: 5%;
   margin-bottom: 10%;
   border:3px solid white;
@@ -95,7 +93,7 @@ h5, h1, .h3{
 .text-about{
   color:black;
   text-align: justify;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-top: 15%;
 }
 .box{
@@ -133,7 +131,7 @@ font-size: 1.1rem;
 .lab{
   width: 100%;
   height: 100%;
-  padding:6%; 
+  padding:5%; 
 }
 .buttons{
   margin-top: 4%;
@@ -149,14 +147,12 @@ font-size: 1.1rem;
 
 /*Contacto*/
 #contact{
-  width: 100%;
   color: #292829;
   background-color: #f9f0b5;
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  padding: 5%;
-
+  padding: 2%;
 }
 .copy{
   font-size: 10px;
@@ -174,7 +170,7 @@ font-size: 1.3rem;
 
 /*Footer*/
 footer {
-  padding: 25px 0;
+  padding: 24px 0;
   height: 79px;
 }
 footer p {
@@ -211,7 +207,7 @@ h4{
 @media(min-width: 0) and (max-width: 767px) {
   /*hero*/
  .fondo-hero{
-    width: 98.5vw;
+    width: 96vw;
     height: 26vh;
   }
   h5, h1, .h3{
@@ -268,15 +264,15 @@ h4{
  }
  h2, h6{
   font-size: 2rem;
-  line-height: 2;
+  line-height: 1;
  
   }
   h6{
     margin-top: 9%;
   }
+  h5{
+    margin-top: 3%;
+  }
 }
-
-
-
 
 
