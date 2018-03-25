@@ -85,7 +85,7 @@ h5, h1, .h3{
   margin-top: 5%;
   margin-bottom: 10%;
   border:3px solid white;
-  border-radius: 25%;
+  border-radius: 15%;
 }
 
 .mifoto{
@@ -271,10 +271,12 @@ h4{
   line-height: 2;
  
   }
+  h6{
+    margin-top: 9%;
+  }
 }
 
 
 
 
 
-}
