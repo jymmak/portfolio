@@ -16,8 +16,8 @@ body{
  color:white;
 }
 .fondo-hero{
-  width: 98.5vw;
-  height: 94vh;
+  width: 98.7vw;
+  height: 106vh;
   opacity: 0.5;
   position: absolute;
 }
@@ -39,7 +39,7 @@ h5, h1, .h3{
 .about{
   height: 60%;
   margin-top: 50%;
-  margin-bottom: 7%;
+
   background-color: #f39f3f;
   padding: 1%;
 }
@@ -85,7 +85,7 @@ h5, h1, .h3{
   margin-top: 5%;
   margin-bottom: 10%;
   border:3px solid white;
-  border-radius: 15%;
+  border-radius: 50%;
 }
 
 .mifoto{
@@ -212,18 +212,18 @@ h4{
   /*hero*/
  .fondo-hero{
     width: 98.5vw;
-    height: 34vh;
+    height: 25vh;
   }
   h5, h1, .h3{
     line-height: 2;
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     margin-top: 2%;
   }
   .typewrite{
-    font-size: 1rem;
+    font-size: 1.3rem;
     color:white;
     margin-left: 1%;
   }
@@ -243,7 +243,7 @@ h4{
     margin-top: 5%;
     margin-bottom: 10%;
     border:3px solid white;
-    border-radius: 25%;
+    border-radius: 50%;
     
   }
   
@@ -267,11 +267,11 @@ h4{
    font-size: 1.5rem;
  }
  h2, h6{
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 2;
  
   }
-  h6{
+  h5,h6{
     margin-top: 9%;
   }
 }
