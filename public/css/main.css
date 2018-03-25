@@ -212,20 +212,20 @@ h4{
   /*hero*/
  .fondo-hero{
     width: 98.5vw;
-    height: 25vh;
+    height: 20vh;
   }
   h5, h1, .h3{
     line-height: 2;
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 2%;
   }
   .typewrite{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color:white;
-    margin-left: 1%;
+ 
   }
   /*about*/
   #hexagono{ 
@@ -271,7 +271,7 @@ h4{
   line-height: 2;
  
   }
-  h5,h6{
+  h6{
     margin-top: 9%;
   }
 }
