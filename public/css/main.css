@@ -215,6 +215,17 @@ h4{
   font-size: 1.8rem;
 }
 
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:30px;
+}
 
 
 /*Movil*/
