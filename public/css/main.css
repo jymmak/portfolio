@@ -51,7 +51,7 @@ h5, h1, .h3{
 }
 /*About*/
 .about{
-  height: 58%;
+  height: 100vh;
   margin-top: 50%;
   background-color: #f39f3f;
   padding: 1%;
@@ -162,6 +162,7 @@ font-size: 1.1rem;
 
 /*Contacto*/
 #contact{
+  height: 90vh;
   color: #292829;
   background-color: #f9f0b5;
   background-size: cover;
