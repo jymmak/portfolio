@@ -148,7 +148,7 @@ font-size: 1.1rem;
 .lab{
   width: 100%;
   height: 100%;
-  padding:5%; 
+  padding:3%; 
 }
 .buttons{
   margin-top: 4%;
@@ -188,7 +188,7 @@ font-size: 1.3rem;
 
 /*Footer*/
 footer {
-  padding: 24px 0;
+  padding: 14px 0;
   height: 79px;
 }
 footer p {
@@ -228,7 +228,7 @@ h4{
 }
 .ir-arriba {
 	display:none;
-	padding:20px;
+	padding:10px;
 	background:#024959;
 	font-size:20px;
 	color:#fff;
@@ -244,8 +244,8 @@ h4{
 @media(min-width: 0) and (max-width: 767px) {
   /*hero*/
  .fondo-hero{
-    width: 96vw;
-    height: 26vh;
+    width:100vw;
+    height: 37.8vh;
   }
   h5, h1, .h3{
     line-height: 2;
@@ -289,6 +289,9 @@ h4{
     display:none;
   }
   
+  .ligth-p{
+    text-align: justify;
+  }
 
   /*proyectos*/
   .title-proyectos{
