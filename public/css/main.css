@@ -126,6 +126,9 @@ font-size: 1.1rem;
   color: black;
   font-size: 1.5rem;
   padding: 2%;
+  background-size: cover;
+  -o-background-size: cover;
+ 
 }
 .black-text{
   color: #012619;
@@ -133,9 +136,8 @@ font-size: 1.1rem;
 .pbadget{
   color:rgb(53, 47, 61);
 }
-.badges{
-  margin-top: 18%;
-}
+
+
 
 /*Proyectos*/
 
@@ -175,7 +177,7 @@ font-size: 1.1rem;
 }
 
 .fa-github-square, .fa-linkedin, .fa-facebook-square, .fa-envelope, .fa-download{
-  color: #003A27;
+  color: rgb(5, 5, 41);
  
 }
 
@@ -202,11 +204,13 @@ footer p {
 }
 i{
   font-size: 1.5rem;
-
 }
 
 h2{
   font-size: 2.3rem;
+  line-height: 2;
+  align-items: center;
+  text-align: center;
 }
 h3, h6{
   color:white;
@@ -216,6 +220,11 @@ h4{
   font-size: 1.8rem;
 }
 
+.fab{
+  font-size: 2.5rem;
+  color: rgb(5, 5, 41);
+ 
+}
 .ir-arriba {
 	display:none;
 	padding:20px;
@@ -259,7 +268,7 @@ h4{
     position: relative;
     color: rgb(17, 99, 9);
     margin-left: 10%;
-    margin-top: 11%;
+    margin-top: 14%;
   } 
   .hex{
     width: 100%;
