@@ -1,14 +1,29 @@
-
+body{
+  background-color: #33313c;
+ 
+}
 /*header*/
 .brand-logo {
  margin-left: 5%;
 }
+
 nav{
   background-color: #ec781f;
 }
-body{
-  background-color: #33313c;
+
+.menu{
+  margin-left: 6%;
+ 
 }
+.dropdown-content li>a{
+  padding: 8% !important;
+ 
+}
+.dropdown-content{
+  width: 30vw !important;
+}
+
+
 /*hero*/
 #hero{
  text-align: center;
@@ -284,6 +299,7 @@ h4{
   h5{
     margin-top: 3%;
   }
+ 
 }
 
 

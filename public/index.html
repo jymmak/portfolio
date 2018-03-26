@@ -11,36 +11,66 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Oxygen|Pacifico" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amita" rel="stylesheet">
+
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <header>
-    
-    <nav>
-      <div class="nav-wrapper">
+
+
+  <nav>
+
+    <div class="nav-wrapper">
+      <div>
         <a href="#hero" class="brand-logo">Jymma</a>
-        <div class="row">
-          <div class="col offset-s8">
-            <ul class="right hide-on-med-and-down">
-              <li>
-                <a href="#about">Acerca de mí</a>
-              </li>
-              <li>
-                <a href="#skills">Habilidades</a>
-              </li>
-              <li>
-                <a href="#portfolio">Portafolio</a>
-              </li>
-              <li>
-                <a href="#contact">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        
+        <a class="dropdown-button hide-on-large-only menu" href="#!" data-activates="dropdown1">
+          <i class="fas fa-bars"></i>
+        </a>
       </div>
-    </nav>
-  </header>
+      <div class="row">
+        <div class="col offset-s8">
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#about">Acerca de mí</a>
+            </li>
+            <li>
+              <a href="#skills">Habilidades</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portafolio</a>
+            </li>
+            <li>
+              <a href="#contact">Contacto</a>
+            </li>
+
+          </ul>
+
+
+
+        </div>
+        <ul class="dropdown-content" id="dropdown1">
+          <li>
+            <a href="#about">Acerca de mí</a>
+          </li>
+          <li>
+            <a href="#skills">Habilidades</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portafolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
   <div>
     <img class="fondo-hero" src="assets/images/fondo2.png" alt="fondo portafolio">
   </div>
@@ -446,8 +476,10 @@
 
 
 
-    <!--boton arriba-->
-	<span class="ir-arriba icon-arrow-up2"><i class="fas fa-angle-double-up"></i></span>
+  <!--boton arriba-->
+  <span class="ir-arriba icon-arrow-up2">
+    <i class="fas fa-angle-double-up"></i>
+  </span>
 
 
 
