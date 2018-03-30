@@ -30,11 +30,11 @@ nav{
  height: 100%;
  object-fit: cover;
  background-size: cover;
-opacity: 0.6;
+ opacity: 0.6;
  margin-left: auto;
  margin-right: auto;
-padding: 5%;
-line-height: 2;
+ padding: 5%;
+ line-height: 2;
  box-shadow: 0 5px 5px -5px #000;
 }
 .typewrite{
@@ -48,6 +48,9 @@ line-height: 2;
   height: 100%;
   background-color: #f39f3f;
   padding: 1%;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
 }
 .forma{
   display: inline-block;
@@ -259,29 +262,9 @@ h7{
  
   }
   /*about*/
-  #about{
-    height: 140vh;
-  }
-  #hexagono{ 
-    font-family: 'Amita', cursive;
-    width: 100px; 
-    height: 40px; 
-    background-color:	#f9f0b5;
-    position: relative;
-    color: rgb(17, 99, 9);
-    margin-left: 10%;
-    margin-top: 14%;
-  } 
-  .hex{
-    width: 40%;
-    border:2px solid white;
-    border-radius: 50%;
-    position: absolute;
-    margin-top: 8%;
-    margin-left:3%;
-  }
-  
- 
+ .hex{
+   margin-left: 35%;
+ }
  
   /*proyectos*/
   h6{
@@ -300,11 +283,12 @@ h7{
   background-size: cover;
   -o-background-size: cover;
   padding: 4%;
- }
-
+}
+.lab{
+  height: 40vh;
 }
 
- 
+}
 
 
 /*Tablets*/
@@ -319,36 +303,22 @@ h7{
   #hero, #about, #contac{
     height: 100%;
   }
-  .hex{
-    width: 30%;
-    border:2px solid white;
-    border-radius: 50%;
-    position: absolute;
-    margin-left: 7%;
-  
+
+  .lab-deskt{
+    margin-top:5%;
   }
-  #about{
-    height: 130vh;
+
+  .lab{
+    height: 80vh;
   }
-  .footer{
-    display:none;
-  }
-  
 }
 
 /*Desktop*/
 @media(min-width: 1025px) and (max-width:1427px){
 
-  .portfolio{
-    background-color: #ec781f;
-     height: 100%;
-    background-size: cover;
-    -o-background-size: cover;
-    
-  }
   .lab{
-    width: 58vw;
-    height: 100%;
+    width: 50vw;
+    height: 60vh;
     padding: 3%; 
   }
 
@@ -360,4 +330,5 @@ h7{
     height: 100%;
   }
  
+   
 }
