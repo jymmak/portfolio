@@ -157,10 +157,7 @@ font-size: 1.1rem;
 .lab-movil{
   padding: 3%;
 }
-.lab-deskt{
-  margin-top:5%;
-  
-}
+
 /*Contacto*/
 #contact{
   height: 90vh;
@@ -323,9 +320,43 @@ h7{
 
 /*Tablets*/
 @media(min-width: 768px) and (max-width: 1024px) { 
-
+  .portfolio2{
+    background-color: #ec781f;
+    height: 100%;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 4%;
+  }
 }
 
 /*Desktop*/
 @media(min-width: 1025px) and (max-width:1427px){
+
+  .portfolio{
+    background-color: #ec781f;
+    padding-top:1%;
+    height: 100%;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+  .lab{
+    width: 55vw;
+    height: 100%;
+    padding:11%; 
+  }
+  .buttons{
+    margin-top: 4%;
+  }
+  .title-proyectos{
+    text-align: justify;
+    font-size: 1rem;
+  }
+  
+  .lab-movil{
+    padding: 3%;
+  }
+  .lab-deskt{
+    margin-top:10%;
+    
+  }
 }
