@@ -71,7 +71,7 @@ nav{
   width: 0; 
   height: 0; 
   content: ""; 
-  position: absolute; 
+  position: absolute;   
   top: -25px; 
   left: 0; 
   border-left: 50px solid transparent; 
@@ -263,7 +263,7 @@ h7{
   }
   /*about*/
  .hex{
-   margin-left: 35%;
+   margin-left: 30%;
  }
  
   /*proyectos*/
@@ -283,7 +283,17 @@ h7{
   background-size: cover;
   -o-background-size: cover;
   padding: 4%;
-}
+  }
+  #hexagono{ 
+    font-family: 'Amita', cursive;
+    width: 100px; 
+    height: 50px; 
+    background-color:	#f9f0b5;
+    position: relative;
+    color: rgb(17, 99, 9);
+    margin-left: 8%;
+    margin-top: 10%;
+  } 
 
 }
 
