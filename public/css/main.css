@@ -90,7 +90,7 @@ nav{
   border-top: 25px solid 	#f9f0b5;;
 }
 .hex{
-  width: 90%;
+  width: 60%;
   margin-top: 2%;
   margin-bottom: 10%;
   border:3px solid white;
@@ -99,7 +99,7 @@ nav{
 }
 
 .mifoto{
-  margin-top: 15%;
+  margin-top: 18%;
 }
 
 .text-about{
@@ -318,6 +318,7 @@ h7{
   .lab{
     height: 80vh;
   }
+ 
 }
 
 /*Desktop*/
