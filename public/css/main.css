@@ -87,8 +87,8 @@ line-height: 2;
   border-top: 25px solid 	#f9f0b5;;
 }
 .hex{
-  width: 100%;
-  margin-top: 5%;
+  width: 90%;
+  margin-top: 2%;
   margin-bottom: 10%;
   border:3px solid white;
   border-radius: 50%;
@@ -260,7 +260,7 @@ h7{
   }
   /*about*/
   #about{
-    height: 100vh;
+    height: 140vh;
   }
   #hexagono{ 
     font-family: 'Amita', cursive;
@@ -273,10 +273,11 @@ h7{
     margin-top: 14%;
   } 
   .hex{
-    width: 40%;
-    border:3px solid white;
+    width: 60%;
+    border:2px solid white;
     border-radius: 50%;
     position: absolute;
+    margin-top: 14%;
   }
   
  
