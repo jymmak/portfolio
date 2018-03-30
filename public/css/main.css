@@ -24,13 +24,12 @@ nav{
 /*hero*/
 #hero{
  color: white;
- background-image: url(../assets/images/fondo2.png);
+ background-image: url(../assets/images/fondo3.png);
  background-repeat: no-repeat;
  background-position: center ;
  height: 100%;
  object-fit: cover;
  background-size: cover;
- opacity: 0.6;
  margin-left: auto;
  margin-right: auto;
  padding: 5%;
