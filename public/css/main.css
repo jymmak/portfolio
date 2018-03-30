@@ -11,10 +11,7 @@ nav{
   background-color: #ec781f;
 }
 
-.menu{
-  margin-left: 6%;
- 
-}
+
 .dropdown-content li>a{
   padding: 8% !important;
  
@@ -26,31 +23,29 @@ nav{
 
 /*hero*/
 #hero{
- text-align: center;
- color:white;
- position: absolute;
-}
-.fondo-hero{
-  width: 98.6vw;
-  height: 106vh;
-  opacity: 0.5;
-  position: absolute;
-}
-h5, h1, .h3{
-  line-height: 2;
-  font-size: 2.3rem;
-  margin-top: 7%;
- 
+ color: white;
+ background-image: url(../assets/images/fondo2.png);
+ background-repeat: no-repeat;
+ background-position: center;
+ height: 100vh;
+ object-fit: cover;
+ background-size: cover;
+opacity: 0.6;
+ margin-left: auto;
+ margin-right: auto;
+padding: 5%;
+line-height: 2;
+ box-shadow: 0 5px 5px -5px #000;
 }
 .typewrite{
-  font-size: 2.5rem;
+  font-size: 3rem;
   color:white;
   margin-left: 4%;
+ 
 }
 /*About*/
 .about{
   height: 100vh;
-  margin-top: 50%;
   background-color: #f39f3f;
   padding: 1%;
 }
@@ -142,11 +137,14 @@ font-size: 1.1rem;
 .portfolio{
   background-color: #ec781f;
   padding-top:1%;
+  height: 100%;
+  background-size: cover;
+  -o-background-size: cover;
 }
 .lab{
-  width: 100%;
+  width: 90%;
   height: 100%;
-  padding:3%; 
+  padding:6%; 
 }
 .buttons{
   margin-top: 4%;
@@ -159,7 +157,10 @@ font-size: 1.1rem;
 .lab-movil{
   padding: 3%;
 }
-
+.lab-deskt{
+  margin-top:5%;
+  
+}
 /*Contacto*/
 #contact{
   height: 90vh;
@@ -168,7 +169,7 @@ font-size: 1.1rem;
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  padding: 2%;
+  padding: 4%;
 }
 .copy{
   font-size: 10px;
@@ -204,21 +205,28 @@ i{
   font-size: 1.5rem;
 }
 
-h2{
+h2, h6{
   font-size: 2.3rem;
   line-height: 2;
   align-items: center;
   text-align: center;
 }
-h3, h6{
+h3, h6, h5{
   color:white;
-  font-size: 2rem;
+  font-size: 2.3rem;
   margin-top: 3%;
 }
 h4{
   font-size: 1.8rem;
 }
 
+h7{
+  color:white;
+  line-height: 2;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
 .icons{
   font-size: 2.5rem;
   color: rgb(5, 5, 41);
@@ -244,17 +252,12 @@ h4{
 
 @media(min-width: 0) and (max-width: 767px) {
   /*hero*/
- .fondo-hero{
-    width:100vw;
-    height: 35vh;
+  #hero{
+ width: 100%;
+ height: 50vh; 
   }
-  h5, h1, .h3{
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
+  h5{
     font-size: 1rem;
-    margin-top: 2%;
   }
   .typewrite{
     font-size: 1rem;
@@ -295,33 +298,34 @@ h4{
   }
 
   /*proyectos*/
-  .title-proyectos{
-    text-align: justify;
-    font-size: 1rem;
-  }
-
- h3{
-   font-size: 1rem;
- }
- h2, h6{
-  font-size: 1rem;
-  line-height: 1;
- 
-  }
   h6{
-    margin-top: 9%;
-  }
-  h5{
-    margin-top: 3%;
-  }
+  font-size:1.5rem;
 
+  }
+  h7{
+    font-size:1.5rem;
+  }
+ .lab-deskt{
+   margin-top: 11%;
+ }
+ .portfolio2{
+  background-color: #ec781f;
+  height: 100%;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 4%;
+ }
  
 }
 
+ 
+
+
 /*Tablets*/
 @media(min-width: 768px) and (max-width: 1024px) { 
-  .fondo-hero{
-    width:99.9%;
-    height: 65.6%;
-  }
+
+}
+
+/*Desktop*/
+@media(min-width: 1025px) and (max-width:1427px){
 }
