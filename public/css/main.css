@@ -39,7 +39,7 @@ nav{
 .typewrite{
   font-size: 3.5rem;
   color:white;
-  margin-left: 7%;
+  margin-left: 4%;
  
 }
 /*About*/
@@ -106,6 +106,12 @@ nav{
   text-align: justify;
   font-size: 1.2rem;
   margin-top: 15%;
+}
+.text{
+  color:black;
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-top: 2%;
 }
 .box{
   margin-top:14%;
@@ -317,6 +323,7 @@ h7{
   .lab{
     height: 80vh;
   }
+
  
 }
 
@@ -336,6 +343,6 @@ h7{
   #hero, #about, #contac{
     height: 100%;
   }
- 
+
    
 }
