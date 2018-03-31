@@ -280,14 +280,7 @@ h7{
  .lab-deskt{
    margin-top: 15%;
  }
- .portfolio2{
-  background-color: #ec781f;
-  height: 100%;
-  background-size: cover;
-  -o-background-size: cover;
-  padding: 4%;
-  }
- 
+
   #hexagono{ 
     font-family: 'Amita', cursive;
     width: 100px; 
@@ -298,20 +291,18 @@ h7{
     margin-left: 8%;
     margin-top: 10%;
   } 
+ .lab{
+  width: 70vw;
+  height: 35vh;
+  padding: 5%; 
+ }
  
-  
 }
 
 
 /*Tablets*/
 @media(min-width: 768px) and (max-width: 1024px) { 
-  .portfolio2{
-    background-color: #ec781f;
-    height: 100%;
-    background-size: cover;
-    -o-background-size: cover;
-    padding: 4%;
-  }
+
   #hero, #about, #contac{
     height: 100%;
   }
@@ -321,9 +312,10 @@ h7{
   }
 
   .lab{
-    height: 60vh;
+   width: 45vw;
+   height: 60vh;
+   padding: 5%; 
   }
-
  
 }
 
