@@ -149,7 +149,7 @@ nav{
 .lab{
   width: 90%;
   height: 100%;
-  padding:6%; 
+ 
 }
 .buttons{
   margin-top: 4%;
@@ -159,9 +159,6 @@ nav{
   font-size: 1rem;
 }
 
-.lab-movil{
-  padding: 3%;
-}
 
 /*Contacto*/
 #contact{
@@ -278,9 +275,10 @@ h7{
   }
   h7{
     font-size:1.5rem;
+    margin-left: 4%;
   }
  .lab-deskt{
-   margin-top: 11%;
+   margin-top: 15%;
  }
  .portfolio2{
   background-color: #ec781f;
@@ -289,6 +287,7 @@ h7{
   -o-background-size: cover;
   padding: 4%;
   }
+ 
   #hexagono{ 
     font-family: 'Amita', cursive;
     width: 100px; 
@@ -299,7 +298,8 @@ h7{
     margin-left: 8%;
     margin-top: 10%;
   } 
-
+ 
+  
 }
 
 
@@ -317,11 +317,11 @@ h7{
   }
 
   .lab-deskt{
-    margin-top:5%;
+    margin-top:2%;
   }
 
   .lab{
-    height: 80vh;
+    height: 60vh;
   }
 
  
@@ -337,7 +337,7 @@ h7{
   }
 
   .lab-deskt{
-    margin-top:11%;
+    margin-top:5%;
     
   }
   #hero, #about, #contac{
