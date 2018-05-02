@@ -2678,6 +2678,7 @@ margin-top: 5%;
     height: 90vh;
     width: 100vw;
     background-image: url(../img/home.jpg);
+    background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -2695,7 +2696,6 @@ margin-top: 5%;
   }
   .row h4 {
     text-align: center;
-    font-size: 22px;
     color: #303030;
     font-weight: 600;
     padding: 3%;
