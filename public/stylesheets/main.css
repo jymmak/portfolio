@@ -2724,3 +2724,10 @@ margin-top: 5%;
   }
 }
 
+/*Tablets*/
+@media(min-width: 768px) and (max-width: 1024px) { 
+  .btn {
+    padding: 6px 10px;
+   }
+ 
+}
