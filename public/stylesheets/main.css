@@ -2365,10 +2365,11 @@ float: none; }
   cursor: pointer; }
 
 .img-home-centro {
-  height: 639px;
+  height: 86vh;
   width: 100%;
   background-image: url(../img/home.jpg);
-   background-size: 100% 100%;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -2674,10 +2675,10 @@ margin-top: 5%;
 
 @media(min-width: 0) and (max-width: 767px) {
   .img-home-centro {
-    height: 300px;
+    height: 90vh;
     width: 100%;
     background-image: url(../img/home.jpg);
-     background-size: 100% 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
   }
   .redes2{
@@ -2688,7 +2689,7 @@ margin-top: 5%;
     width: 45%;
   }
   #nosotros1{
-    height: 700px;
+    height: 750px;
     font-size: 1.5rem;
     margin-top: -7%;
   }
