@@ -2676,7 +2676,7 @@ margin-top: 5%;
 @media(min-width: 0) and (max-width: 767px) {
   .img-home-centro {
     height: 90vh;
-    width: 100%;
+    width: 100vw;
     background-image: url(../img/home.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
