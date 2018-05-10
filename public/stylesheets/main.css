@@ -4,11 +4,13 @@
 ========================================*/
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%; 
+}
 
 body {
+
   margin: 0; }
 
 article,
@@ -132,7 +134,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -1532,7 +1534,7 @@ a.list-group-item-danger {
 
 .nav li {
   list-style: none;
-  font-family: "JosefinSlab-Regular";
+  font-family: "DolceVitaHeavyBold";
   font-size: 21px;
   padding: 0 2%; }
   .nav li a {
