@@ -1280,8 +1280,7 @@ tbody.collapse.in {
       margin-right: 0; } }
 .navbar-default {
   background-color: #D4145A;
- 
-  border-color: #e7e7e7; }
+   border-bottom-color: #e7e7e7; }
   .navbar-default .navbar-brand {
     color: #fff; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -2394,6 +2393,7 @@ float: none; }
 .img-perfil{
   margin-top: 40%;
   width: 75%;
+  border-radius: 6px;
 }
 .tech-patch-mx-height {
   max-height: 250px;
